@@ -40,8 +40,8 @@ functions:
   expressions: {}
   airflowFunctions: {}
   businessRules:
-    businessRules/br1:
-      name: br1
+    businessRules/br1_renamed:
+      name: br1_renamed
       description: ''
       tags: []
       inputs: []
