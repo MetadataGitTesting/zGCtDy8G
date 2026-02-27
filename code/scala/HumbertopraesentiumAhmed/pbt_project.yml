@@ -1,0 +1,71 @@
+name: issac.herman
+description: Exclusive
+version: 0.0.1
+author: toqcscsh.23zbktj0@hfv9uuqz.com
+language: scala
+buildSystem: ''
+buildSystemDetails:
+  artefactID: issacherman
+  parentArtefactID: ''
+  buildSystem: maven
+  author: null
+  createdAt: '2026-02-27 18:36:53'
+pipelines:
+  pipelines/pipeline1:
+    name: pipeline1
+    description: Really solid info
+    author: toqcscsh.23zbktj0@hfv9uuqz.com
+    mode: batch
+    artefactID: ''
+    language: scala
+    createdAt: '2026-02-27 18:36:53'
+    datasets:
+      inputs: []
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+gemContainer:
+  languageVersion: 2.12.15
+  gemLibsVersion: 1.1.26
+  gems: {}
+  dependencies: null
+functions:
+  author: null
+  createdAt: '2026-02-27 18:36:53'
+  udfs: {}
+  udafs: {}
+  expressions: {}
+  airflowFunctions: {}
+  businessRules:
+    businessRules/br1:
+      name: br1
+      description: ''
+      tags: []
+      inputs: []
+      outputs: []
+      author: toqcscsh.23zbktj0@hfv9uuqz.com
+      createdAt: '2022-12-15 18:04:50'
+subgraphs: {}
+sqlModels: {}
+sqlSnapshots: {}
+sqlTests: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies:
+- modifiedAt: '2026-02-27T18:36:53.521251Z'
+  name: plibMaven
+  version: 9.0.2
+  id: '990138152'
+  createdAt: '2026-02-27T18:36:53.521251Z'
+  type: plibMaven
+projectDependencies: {}
+flags:
+  shouldAddDefaultDependenciesIfAbsent: true
+pipelineConfigurations: {}
+projectConfigurations: {}
